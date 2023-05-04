@@ -1,0 +1,110 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Function",
+        "name": "swiftPmPlugin_toNumber",
+        "printedName": "swiftPmPlugin_toNumber()",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "Int64",
+            "printedName": "Swift.Int64",
+            "usr": "s:s5Int64V"
+          }
+        ],
+        "declKind": "Func",
+        "usr": "c:(cm)swiftPmPlugin_toNumber",
+        "mangledName": "$s13SwiftPmPlugin05swiftbC9_toNumbers5Int64VyF",
+        "moduleName": "SwiftPmPlugin",
+        "declAttributes": [
+          "AccessControl",
+          "CDecl",
+          "RawDocComment"
+        ],
+        "funcSelfKind": "NonMutating"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "UnityiOSPlugin",
+        "printedName": "UnityiOSPlugin",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "ToInt",
+            "printedName": "ToInt()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int64",
+                "printedName": "Swift.Int64",
+                "usr": "s:s5Int64V"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13SwiftPmPlugin14UnityiOSPluginV5ToInts5Int64VyFZ",
+            "mangledName": "$s13SwiftPmPlugin14UnityiOSPluginV5ToInts5Int64VyFZ",
+            "moduleName": "SwiftPmPlugin",
+            "static": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UnityiOSPlugin",
+                "printedName": "SwiftPmPlugin.UnityiOSPlugin",
+                "usr": "s:13SwiftPmPlugin14UnityiOSPluginV"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:13SwiftPmPlugin14UnityiOSPluginVACycfc",
+            "mangledName": "$s13SwiftPmPlugin14UnityiOSPluginVACycfc",
+            "moduleName": "SwiftPmPlugin",
+            "implicit": true,
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:13SwiftPmPlugin14UnityiOSPluginV",
+        "mangledName": "$s13SwiftPmPlugin14UnityiOSPluginV",
+        "moduleName": "SwiftPmPlugin",
+        "declAttributes": [
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/mizuki\/Dropbox\/UnityiOSPlugin\/Sources\/SwiftPmPlugin\/SwiftPmPlugin.swift",
+      "kind": "IntegerLiteral",
+      "offset": 168,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/mizuki\/Dropbox\/UnityiOSPlugin\/Sources\/SwiftPmPlugin\/UnityiOSPlugin.swift",
+      "kind": "IntegerLiteral",
+      "offset": 144,
+      "length": 1,
+      "value": "0"
+    }
+  ]
+}

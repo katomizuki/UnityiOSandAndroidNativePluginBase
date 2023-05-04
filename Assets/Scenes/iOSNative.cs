@@ -1,18 +1,17 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.Runtime.InteropServices;
 using UnityEngine;
 
 public class iOSNative : MonoBehaviour
 {
-    // Start is called before the first frame update
+
+    [DllImport("__Internal")]
+    private static extern long swiftPmPlugin_toNumber();
     void Start()
     {
-        
+        Debug.Log(swiftPmPlugin_toNumber() + "確認だぜい");
     }
 
-    // Update is called once per frame
-    void Update()
-    {
         
-    }
 }
